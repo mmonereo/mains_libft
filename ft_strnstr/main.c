@@ -5,8 +5,8 @@ char *ft_strnstr(const char *haystack, const char *needle, size_t len);
 
 int main (void)
 {
-    char str[50] = "lo lor lore lorem ipsum dolor sit amet";
-    char pek[20] = "lorem";
+    char str[50] = "lo lor lo aore lorem c la ewelo lor";
+    char pek[20] = "c";
     int s = 40;
 
     printf("resultado de original: %p\n", strnstr(str, pek, s * sizeof(char)));
